@@ -1,0 +1,32 @@
+ 
+div,ul{
+    background-color:whitesmoke;
+    margin: .5rem;
+    padding: .5rem;
+}
+
+img{height: 280px;
+    width: 300px;
+    clip-path: circle();
+  
+}
+
+body {
+    font-size: 14px;
+    font-size:17px ;
+    columns: 3;
+}
+
+
+
+h1{
+    font-size: 20px;
+    background-color: rgb(47, 50, 60);
+    padding: 30px;
+  }
+
+  .sidebar{
+    display: flex;
+    flex-wrap: wrap;
+  }
+ 
