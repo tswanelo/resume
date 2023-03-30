@@ -1,0 +1,158 @@
+body {
+    background-color: rgb(241, 241, 241);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    background-image: url('https://img.freepik.com/free-photo/vintage-barber-paper-jobs-career-concept_53876-129351.jpg?w=2000');
+    overflow: scroll;
+}
+
+
+#back-to-top > button{
+    background-color: rgb(198, 156, 78);
+    border-radius: 50%;
+    border: solid 1px rgb(198, 156, 78);
+    width: 50px;
+    height: 50px;
+}
+#back-to-top:hover > button {
+    border: solid 1px rgb(58, 51, 38);
+    background-color: white;
+    
+}
+#back-to-top > button {
+    text-decoration: none;
+    color: whitesmoke;
+}
+#back-to-top:hover > button {
+    text-decoration: none;
+    color: rgb(226, 204, 162);
+}
+
+
+#navbar {
+    background-color: rgb(23, 23, 23);
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+.nav-link {
+    text-decoration: none;
+    color:white;
+    margin: 0 4vw;
+}
+
+.nav-link:hover {
+    color: rgb(219, 191, 63);
+    text-decoration: none;
+}
+button:hover {
+    background-color: rgb(219, 191, 63);
+    text-decoration: none;
+}
+
+
+#top {
+    display: inline-flex;
+    background-color: rgba(44, 114, 155, 0.47);
+    color: rgb(224, 224, 188);
+    padding: 2rem;
+    padding-bottom: 4rem;
+    height: 40vh;
+}
+.header-content {
+    padding: 3rem;
+}
+
+#header-image {
+    border-radius: 10%;
+    width: 300px;
+    height: 225px;
+}
+
+h1,h2,h3{color: #070707;}
+
+main {
+    margin-top: 10rem;
+}
+
+.service {
+    padding: 2rem;
+    display: flex;
+    margin: 2rem;
+    color: #f9f9f9;
+    
+}
+.service:nth-child(even) {
+    background-color: rgba(33, 95, 107, 0.608);
+    color:rgb(224, 224, 188);
+}
+.service h3 {
+    padding: 1rem;
+    padding-right: 3rem;
+}
+
+
+#about {
+    margin-top: 4rem;
+    
+}
+
+#about-content {
+    padding: 0 15vw;
+}
+
+#footer {
+    margin-top: 4rem;
+    background-color: rgba(67, 74, 104, 0.662);
+    color: rgb(220, 158, 158);
+    text-align: center;
+    padding: 2rem;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+input:required,
+textarea:required {
+  border-color: red !important;
+}
+input:required + label {
+  color: red;
+}
+
+form {
+    padding: 20px; 
+    max-width: 500px;
+    margin: 0 auto;
+}
